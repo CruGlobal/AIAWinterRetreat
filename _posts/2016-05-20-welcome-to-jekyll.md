@@ -1,9 +1,11 @@
 ---
 title: Welcome to jekyll!
-date: 2016-05-20 21:11:27 Z
-layout: post
+date: 2016-05-20 21:11:00 Z
 subtitle: Jekyll is a blog-aware, static site generator in Ruby https://jekyllrb.com
 author: jekyll
+Retreat Date: 2018-01-20 10:19:00 Z
+Retreat Location: Boone, NC
+layout: post
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
