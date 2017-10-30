@@ -31,3 +31,12 @@ descriptions:
   desc: Posts describing Jekyll setup techniques.
 - cat: dummy
   desc: Just some placeholder posts, lorem ipsum and the rest.
+defaults:
+  -
+  scope:
+    path: ""
+    type: "posts"
+  values:
+    retreat_date: "TBA"
+    retreat_location: "TBA"
+    retreat_ID: 0
