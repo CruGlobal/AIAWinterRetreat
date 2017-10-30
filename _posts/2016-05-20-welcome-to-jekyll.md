@@ -3,8 +3,8 @@ title: Welcome to jekyll!
 date: 2016-05-20 21:11:00 Z
 subtitle: Jekyll is a blog-aware, static site generator in Ruby https://jekyllrb.com
 author: jekyll
-Retreat Date: 2018-01-20 10:19:00 Z
-Retreat Location: Boone, NC
+RetreatDate: 2018-01-20 10:19:00 Z
+RetreatLocation: Boone, NC
 layout: post
 ---
 
