@@ -5,8 +5,7 @@ collections:
   posts:
     title: Posts
     output: true
-    retreat_date: ""
-    retreat_location: 
+    retreat_date: ''
   uploads:
     title: Uploads
     output: true
