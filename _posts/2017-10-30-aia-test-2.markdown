@@ -1,5 +1,8 @@
 ---
 title: AIA Test 2
 date: 2017-10-30 18:21:00 Z
+retreat_date: 2017-10-31 00:00:00 Z
+retreat_location: Boone NC
+retreat_ID: 1826
 ---
 
