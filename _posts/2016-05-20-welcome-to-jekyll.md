@@ -1,6 +1,7 @@
 ---
 title: Welcome to jekyll!
 date: 2016-05-20 21:11:00 Z
+retreat_location: Boone, NC
 subtitle: Jekyll is a blog-aware, static site generator in Ruby https://jekyllrb.com
 author: jekyll
 RetreatDate: 2018-01-20 10:19:00 Z
