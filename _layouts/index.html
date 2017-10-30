@@ -25,11 +25,12 @@
     <div class="row">
       {% for post in site.posts %}
       <div class="col-md-4">
-        <div class="post-area2">
-          <a href="{{ post.url | prepend: site.baseurl }}" class="bold center-text pTitle">{{ post.title }}</a>
+        <div class="post-area2 center-text">
+          <h4><a href="{{ post.url | prepend: site.baseurl }}" class="bold pTitle">{{ post.title }}</a></h4>
           <p class="post-date">{{ post.date | date_to_long_string }}</p>
+          <p>{{ post.retreat_location }}</p>
           <p>
-            {{ post.content | strip_html | truncatewords: 50 }}
+              <a class="btn btn-default btn-call-to-action" href="{{ post.url | prepend: site.baseurl }}">Get More Info </a>
           </p>
         </div>
       </div>
