@@ -1,7 +1,7 @@
 ---
 title: SoCal 2018
 date: 2017-10-31 19:35:00 Z
-retreat_date: 2018-01-26 00:00:00 Z
+retreat_date: 2026-01-01 00:00:00 Z
 retreat_location: Pine Valley, CA
 retreat_ID: 1874
 ---
