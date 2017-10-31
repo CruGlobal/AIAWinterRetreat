@@ -1,5 +1,5 @@
 ---
-title: Chicago
+title: Chicago (IL)
 date: 2017-10-31 19:27:00 Z
 retreat_date: 2018-02-02 00:00:00 Z
 retreat_location: Chicago, IL
