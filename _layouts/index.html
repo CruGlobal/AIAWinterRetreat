@@ -8,31 +8,41 @@
   {% include header.html %}
 <!-- Slider Start -->
 <section id="slider">
+    <div class="video-background">
+        <div class="video-foreground">
+            <iframe allowfullscreen="" src="https://www.youtube.com/embed/3MOmbuEpRtk?controls=0&showinfo=0&rel=0&autoplay=1&loop=1"></iframe>
+        </div>
+      </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <h1 class="animated fadeInUp center-text bold">{{ site.title }} </h1>
-          <p class="animated fadeInUp center-text">{{ site.EventDate }}</p>
-        </div>
+        <div class="col-md-12">
+          <div class="block">
+            <!--<h1 class="animated fadeInUp center-text bold">{{ site.title }} </h1>-->
+          </div>
       </div>
     </div>
   </div>
 </section>
 <!-- Wrapper Start -->
-<section id="intro">
+<section id="retreats">
   <div class="container">
+    <div class="row center-text">
+      <h2>Find a Retreat Near You</h2>
+    </div>
     <div class="row">
-      {% for post in site.posts %}
+        {% assign sorted = (site.posts | sort: 'title') %}
+        {% for post in sorted %}
       <div class="col-md-4">
+        <div class="post-area2-div"></div>
         <div class="post-area2 center-text">
           <h4><a href="{{ post.url | prepend: site.baseurl }}" class="bold pTitle">{{ post.title }}</a></h4>
-          <p class="post-date">{{ post.date | date_to_long_string }}</p>
+          <p class="post-date">{{ post.retreat_date | date: '%B %d, %Y' }}</p>
           <p>{{ post.retreat_location }}</p>
           <p>
               <a class="btn btn-default btn-call-to-action" href="{{ post.url | prepend: site.baseurl }}">Get More Info </a>
           </p>
         </div>
+        <div class="post-area2-div-bottom"></div>
       </div>
       {% endfor %}
     </div>
@@ -43,13 +53,40 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2>Check out highlights from this event over the years!</h2>
+          <h2>Hear what other student-athletes have said about the retreat!</h2>
           <div class="row">
             <div class="col-md-12">
-              <h5 class="center-text"> Watch our promo video to get a sneak peak of what to expect this year!</h5>
+                <div class="testimonial-carousel">
+                    <div id="testimonial-slider" class="owl-carousel">
+                        <div>
+                            <p>"God really spoke to me and made me realize that I was going down every wrong path I could possibly go down and it is great that I can now turn my life back around."</p>
+                            <div class="user">
+                              <p>Ball State</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>"Taught me to choose to listen to the Holy Spirit everyday."</p>
+                            <div class="user">
+                              <p>Illinois State</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>"Showed me what's truly important in my life and how my value system was greatly flawed."</p>
+                            <div class="user">
+                              <p>Robert Morris</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>"Allowed me to expierence an environment where my faith could be freely expressed and shared. A place where I made strong Christian connection and could live life as it should be."</p>
+                            <div class="user">
+                              <p>Wisconsin</p>
+                            </div>
+                        </div>
+                      </div>  
+                  </div>
+            </div>
             </div>
           </div>
-          <a class="btn btn-default btn-call-to-action" href="#" >Watch Here </a>
         </div>
       </div>
     </div>

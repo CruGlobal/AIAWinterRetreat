@@ -13,6 +13,11 @@
 /*--
 	Common Css
 --*/
+
+@font-face {
+  font-family: 'United';
+  src: url('/fonts/UnitedSansRgBk.otf');
+}
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -23,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'United', sans-serif;
 }
 h2 {
   font-size: 30px;
@@ -105,9 +110,9 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/legends-breakfast-header.jpg") no-repeat;
+  /*background: url("../img/legends-breakfast-header.jpg") no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
   background-position: 10% 0%;
   padding: 200px 0 280px 0;
   position: relative;
@@ -115,6 +120,21 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-top: -20px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+.video-background {
+  background: #000;
+  /*position: fixed;*/
+  width: 150%;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 #slider:before {
   content: "";
@@ -126,7 +146,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   background: linear-gradient(to left, #8b86a3, #322e40);
-  opacity: 0.8;
+  opacity: -0;
 }
 #slider .block {
   color: #E3E3E4;
@@ -150,7 +170,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	wrapper Start
 --*/
 #intro {
-  padding: 100px 0;
+  padding: 20px 0;
 }
 #intro .block h2 {
   padding-top: 35px;
@@ -201,7 +221,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	call-to-action Start
 --*/
 #call-to-action {
-  background: url("../img/call-to-action-bg.jpg") no-repeat;
+  background: #003366; /* url("../img/call-to-action-bg.jpg") no-repeat; */
   background-size: cover;
   background-attachment: fixed;
   padding: 70px 0px;
@@ -822,8 +842,8 @@ footer .footer-manu ul li a:hover {
 					Post-Area
 -----------------------------------------------*/
 .post-area2 {
-  border: 3px solid #003366;
-  border-radius: 10px;
+  /*border: 3px solid #003366;
+  border-radius: 10px;*/
   padding: 5px;
   margin: 5px;
 }
@@ -838,4 +858,20 @@ footer .footer-manu ul li a:hover {
   font-size: 15px;
   color: #fff;
   margin-top: 30px;
+}
+.post-area2-div {
+  background: #003366;
+  width: 100%;
+  height: 20px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+  margin-top: 10px;
+}
+.post-area2-div-bottom {
+  background: #003366;
+  width: 100%;
+  height: 20px;
+  -webkit-clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 100% 25%);
+  clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 100% 25%);
+  margin-bottom: 10px;
 }
