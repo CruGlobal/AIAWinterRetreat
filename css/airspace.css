@@ -840,8 +840,9 @@ footer .footer-manu ul li a:hover {
 					Post-Area
 -----------------------------------------------*/
 .post-area2 {
-  /*border: 3px solid #003366;
-  border-radius: 10px;*/
+  border: 1px solid #003366;
+  border-radius: 10px;
+  height: 220px;
   padding: 5px;
   margin: -20px 5px 0;
   background: #e5e5e5;
