@@ -7,10 +7,9 @@
 <body>
   {% include header.html %}
 <!-- Slider Start -->
-<section id="slider">
-    <div class="video-background">
+<section id="slider" class="tv screen">
+    <div id="video-background">
         <div class="video-foreground">
-            <iframe allowfullscreen="" src="https://www.youtube.com/embed/6xVmKvT_qBk?controls=0&amp;showinfo=0&autoplay=1&loop=1"></iframe>
         </div>
       </div>
   <div class="container">
@@ -94,5 +93,63 @@
 </section>
     {% include footer.html %}
 </body>
+<script type="text/javascript">
+  var tag = document.createElement('script');
+		tag.src = 'https://www.youtube.com/player_api';
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    var tv,
+        playerDefaults = {autoplay: 0, autohide: 1, modestbranding: 0, rel: 0, showinfo: 0, controls: 0, disablekb: 1, enablejsapi: 0, iv_load_policy: 3};
+    var vid = [
+          {'videoId': '6xVmKvT_qBk', 'startSeconds': 0, 'endSeconds': 142, 'suggestedQuality': 'hd720'}
+        ],
+		randomVid = Math.floor(Math.random() * vid.length),
+    currVid = randomVid;
 
+function onYouTubePlayerAPIReady(){
+  tv = new YT.Player('video-background', {events: {'onReady': onPlayerReady, 'onStateChange': onPlayerStateChange}, playerVars: playerDefaults});
+}
+
+function onPlayerReady(){
+  tv.loadVideoById(vid[currVid]);
+  tv.mute();
+}
+
+function onPlayerStateChange(e) {
+  if (e.data === 1){
+    $('#video-background').addClass('active');
+  } else if (e.data === 2){
+    $('#video-background').removeClass('active');
+    if(currVid === vid.length - 1){
+      currVid = 0;
+    } else {
+      currVid++;  
+    }
+    tv.loadVideoById(vid[currVid]);
+    tv.seekTo(vid[currVid].startSeconds);
+  }
+}
+
+function vidRescale(){
+
+  var w = $(window).width()+200,
+    h = $(window).height()+200;
+  console.log(w);
+  console.log(h);
+  console.log(tv);
+  if (w/h > 16/9){
+    tv.setSize(w, w/16*9);
+    $('.tv .screen').css({'left': '0px'});
+  } else {
+    tv.setSize(h/9*16, h);
+    $('.tv .screen').css({'left': -($('.tv .screen').outerWidth()-w)/2});
+  }
+}
+
+$(window).on('load resize', function(){
+  vidRescale();
+});
+
+
+</script>
 </html>
