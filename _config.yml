@@ -31,6 +31,7 @@ keep_files:
 subtitle: Celebrating the Induction to the Hall of Faith
 url: 
 baseurl: 
+permalink: none
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 markdown: kramdown
