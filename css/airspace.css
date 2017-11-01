@@ -6,9 +6,9 @@
  *
  */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
-@import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+@import url(https://fonts.googleapis.com/css?family=Volkhov:400italic);
 /* var text-decoration */
 /*--
 	Common Css
@@ -71,9 +71,7 @@ a:active {
 --*/
 header {
   background: #003366;
-  padding: 20px 0;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  padding: 0;
 }
 header .navbar {
   margin-bottom: 0px;
@@ -98,7 +96,8 @@ header .navbar-default .navbar-nav {
 header .navbar-default .navbar-nav li a {
   color: #fff;
   padding: 10px 26px;
-  font-size: 15px;
+  font-size: 18px;
+  font-family: 'United', sans-serif;
 }
 header .navbar-default .navbar-nav>li>a:hover {
   color: #CCC !important;
@@ -848,6 +847,7 @@ footer .footer-manu ul li a:hover {
   padding: 5px;
   margin: -20px 5px 0;
   background: #e5e5e5;
+  margin-top: 10px;
 }
 
 .post-area2 .pTitle {
@@ -892,4 +892,14 @@ footer .footer-manu ul li a:hover {
 .register h2 {
   color: #fff;
   padding: 10px 0px 0px 5px !important;
+}
+
+#retreats {
+  margin-bottom: 50px;
+}
+#retreats .container .row h2 { text-transform: uppercase; }
+
+#call-to-action {
+  -webkit-clip-path: polygon(0 0, 10% 0, 20% 0%, 0 100%);
+  clip-path: polygon(0 0, 10% 0, 20% 0%, 0 100%);
 }
