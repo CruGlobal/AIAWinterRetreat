@@ -120,6 +120,7 @@ header .navbar-default .navbar-nav>li>a:hover {
   margin-top: -20px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  overflow: hidden;
 }
 .video-background {
   background: #000;
@@ -221,9 +222,9 @@ header .navbar-default .navbar-nav>li>a:hover {
 	call-to-action Start
 --*/
 #call-to-action {
-  background: #003366; /* url("../img/call-to-action-bg.jpg") no-repeat; */
+  background: #003366 url("/uploads/IMG_4200.jpg") no-repeat; 
   background-size: cover;
-  background-attachment: fixed;
+  background-position: center top;
   padding: 70px 0px;
   position: relative;
   text-align: center;
@@ -845,7 +846,8 @@ footer .footer-manu ul li a:hover {
   /*border: 3px solid #003366;
   border-radius: 10px;*/
   padding: 5px;
-  margin: 5px;
+  margin: -20px 5px 0;
+  background: #e5e5e5;
 }
 
 .post-area2 .pTitle {
@@ -863,15 +865,31 @@ footer .footer-manu ul li a:hover {
   background: #003366;
   width: 100%;
   height: 20px;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 10% 0, 20% 0%, 0 100%);
+  clip-path: polygon(0 0, 10% 0, 20% 0%, 0 100%);
   margin-top: 10px;
 }
 .post-area2-div-bottom {
+  margin: -20px 3px 10px 0px;
+}
+
+.bottom-flag {
   background: #003366;
   width: 100%;
   height: 20px;
-  -webkit-clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 100% 25%);
-  clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 100% 25%);
-  margin-bottom: 10px;
+  -webkit-clip-path: polygon(80% 100%, 100% 100%, 100% 100%, 100% 25%);
+  clip-path: polygon(80% 100%, 100% 100%, 100% 100%, 100% 25%);
+  
+}
+
+.register {
+  width: 100%;
+  height: 50px;
+  background: #003366;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+}
+.register h2 {
+  color: #fff;
+  padding: 10px 0px 0px 5px !important;
 }
