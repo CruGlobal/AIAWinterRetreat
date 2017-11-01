@@ -18,7 +18,7 @@
       <!-- MINIMUM SLIDE STRUCTURE -->
       <li data-transition="fade">
         <!-- SLIDE'S MAIN BACKGROUND IMAGE -->
-        <img src="uploads/IMG_4200.jpg" alt="Sky" class="rev-slidebg visible-sm">
+        <img src="uploads/IMG_4200.jpg" alt="Sky" class="rev-slidebg tp-resizeme visible-sm" data-visibility="['on', 'on', 'off','off']">
         <div class="tp-caption tp-resizeme tp-videolayer fullscreenvideo hidden-sm" 
             data-type="video" 
             data-ytid="6xVmKvT_qBk" 
@@ -30,7 +30,7 @@
             data-forcerewind="on" 
             data-videoloop="loopandnoslidestop" 
             data-videoattributes="version=3&enablejsapi=1&html5=1&hd=1&wmode=opaque&showinfo=0&rel=0&" 
-        
+            data-visibility="['off', 'off', 'on', 'on']"
             data-x="center" 
             data-y="center" 
             data-hoffset="0" 
@@ -119,17 +119,21 @@
     <script type="text/javascript">
       jQuery(document).ready(function() {
         jQuery('#rev_slider_1').show().revolution({
+          responsiveLevels: [480, 720, 1024, 1240],
+          gridwidth:[480, 720, 1024, 1240],
+          gridheight:[400, 768, 960, 720],
+          /* [DESKTOP, LAPTOP, TABLET, SMARTPHONE] */
+          visibilityLevels:[480, 720, 1024, 1240],
           delay:8000,
               startwidth:1170,
               startheight:500,
               fullWidth:"on",
-              fullScreen:"on",
+              fullScreen:"off",
               hideTimerBar: "off",
               spinner:"spinner4",
               navigationStyle: "preview4",
               soloArrowLeftHOffset:20,
               soloArrowRightHOffset:20,
-              dottedOverlay:"threexthree",
             fullScreenOffsetContainer: ".navbar"
         });
       });
