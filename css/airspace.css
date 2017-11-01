@@ -117,7 +117,7 @@ header .navbar-default .navbar-nav>li>a:hover {
   padding: 0 0 0 0;
   position: relative;
   z-index: -100;
-  margin-top: -20px;
+  margin-top: -50px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   overflow: hidden;

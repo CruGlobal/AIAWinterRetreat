@@ -2,25 +2,47 @@
 <html>
 <head>
   {% include head.html %}
+  {% include index-head.html %}
+  <script src="js/jquery.themepunch.tools.min.js"></script>
+  <script src="js/jquery.themepunch.revolution.min.js"></script>
+
 </head>
 
 <body>
   {% include header.html %}
 <!-- Slider Start -->
-<section id="slider" class="tv screen">
-    <div id="video-background">
-        <div class="video-foreground">
-        </div>
-      </div>
-  <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-          <div class="block">
-            <!--<h1 class="animated fadeInUp center-text bold">{{ site.title }} </h1>-->
-          </div>
-      </div>
-    </div>
-  </div>
+<section id="slider" class="rev_slider_wrapper">
+  <div id="rev_slider_1" class="rev_slider" data-version="5.4.5" style="display:none">
+    <!-- BEGIN SLIDES LIST -->
+    <ul>
+      <!-- MINIMUM SLIDE STRUCTURE -->
+      <li data-transition="fade">
+        <!-- SLIDE'S MAIN BACKGROUND IMAGE -->
+        <img src="uploads/IMG_4200.jpg" alt="Sky" class="rev-slidebg visible-sm">
+        <div class="tp-caption tp-resizeme tp-videolayer fullscreenvideo hidden-sm" 
+            data-type="video" 
+            data-ytid="6xVmKvT_qBk" 
+            data-videowidth="100%" 
+            data-videoheight="100%" 
+            data-autoplay="off" 
+            data-videocontrols="controls" 
+            data-nextslideatend="true" 
+            data-forcerewind="on" 
+            data-videoloop="loopandnoslidestop" 
+            data-videoattributes="version=3&enablejsapi=1&html5=1&hd=1&wmode=opaque&showinfo=0&rel=0&" 
+        
+            data-x="center" 
+            data-y="center" 
+            data-hoffset="0" 
+            data-voffset="0" 
+            data-basealign="slide">
+              
+            <iframe id="video-background" frameborder="0" allowfullscreen="1" gesture="media" src="https://www.youtube.com/embed/6xVmKvT_qBk?autoplay=1&amp;autohide=1&amp;modestbranding=0&amp;rel=0&amp;showinfo=0&amp;controls=0&amp;disablekb=1&amp;enablejsapi=1&amp;iv_load_policy=3&amp;origin=https%3A%2F%2Fcruglobal.github.io&amp;widgetid=1"></iframe>
+      <div>
+      </li>
+
+    </ul><!-- END SLIDES LIST -->
+  </div><!-- END SLIDER CONTAINER -->
 </section>
 <!-- Wrapper Start -->
 <section id="retreats">
@@ -94,64 +116,23 @@
   </div>
 </section>
     {% include footer.html %}
+    <script type="text/javascript">
+      jQuery(document).ready(function() {
+        jQuery('#rev_slider_1').show().revolution({
+          delay:8000,
+              startwidth:1170,
+              startheight:500,
+              fullWidth:"on",
+              fullScreen:"on",
+              hideTimerBar: "off",
+              spinner:"spinner4",
+              navigationStyle: "preview4",
+              soloArrowLeftHOffset:20,
+              soloArrowRightHOffset:20,
+              dottedOverlay:"threexthree",
+            fullScreenOffsetContainer: ".navbar"
+        });
+      });
+    </script>    
 </body>
-<script type="text/javascript">
-  var tag = document.createElement('script');
-		tag.src = 'https://www.youtube.com/player_api';
-    var firstScriptTag = document.getElementsByTagName('script')[0];
-		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-    var tv,
-        playerDefaults = {autoplay: 0, autohide: 1, modestbranding: 0, rel: 0, showinfo: 0, controls: 0, disablekb: 1, enablejsapi: 0, iv_load_policy: 3};
-    var vid = [
-          {'videoId': '6xVmKvT_qBk', 'startSeconds': 0, 'endSeconds': 142, 'suggestedQuality': 'hd720'}
-        ],
-		randomVid = Math.floor(Math.random() * vid.length),
-    currVid = randomVid;
-
-function onYouTubePlayerAPIReady(){
-  tv = new YT.Player('video-background', {events: {'onReady': onPlayerReady, 'onStateChange': onPlayerStateChange}, playerVars: playerDefaults});
-}
-
-function onPlayerReady(){
-  tv.loadVideoById(vid[currVid]);
-  tv.mute();
-}
-
-function onPlayerStateChange(e) {
-  if (e.data === 1){
-    $('#video-background').addClass('active');
-  } else if (e.data === 2){
-    $('#video-background').removeClass('active');
-    if(currVid === vid.length - 1){
-      currVid = 0;
-    } else {
-      currVid++;  
-    }
-    tv.loadVideoById(vid[currVid]);
-    tv.seekTo(vid[currVid].startSeconds);
-  }
-}
-
-function vidRescale(){
-
-  var w = $(window).width()+200,
-    h = $(window).height()+200;
-  console.log(w);
-  console.log(h);
-  console.log(tv);
-  if (w/h > 16/9){
-    tv.setSize(w, w/16*9);
-    $('.tv .screen').css({'left': '0px'});
-  } else {
-    tv.setSize(h/9*16, h);
-    $('.tv .screen').css({'left': -($('.tv .screen').outerWidth()-w)/2});
-  }
-}
-
-$(window).on('load resize', function(){
-  vidRescale();
-});
-
-
-</script>
 </html>

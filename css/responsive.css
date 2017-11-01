@@ -176,7 +176,7 @@ px      68    160    252    */
     margin-bottom: 20px;
   }
   #slider {
-    padding-top: 90px;
+    /*padding-top: 90px;*/
     padding-bottom: 100px;
   }
   #slider .block {
@@ -253,7 +253,7 @@ px      68    160    252    */
 					Work Start 
 -----------------------------------------------*/
   #slider-work {
-    padding-top: 100px;
+    /*padding-top: 100px;*/
     padding-bottom: 100px;
   }
   #slider-work .block {
@@ -346,7 +346,7 @@ px      68    160    252    */
 --*/
   #slider-contact {
     padding-top: 100px;
-    padding-bottom: 100px;
+    /*padding-bottom: 100px;*/
   }
   #slider-contact .block {
     padding-left: 0px;
