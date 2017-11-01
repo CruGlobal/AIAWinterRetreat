@@ -3,8 +3,6 @@
 <head>
   {% include head.html %}
   {% include index-head.html %}
-  <script src="js/jquery.themepunch.tools.min.js"></script>
-  <script src="js/jquery.themepunch.revolution.min.js"></script>
 
 </head>
 
@@ -12,37 +10,13 @@
   {% include header.html %}
 <!-- Slider Start -->
 <section id="slider" class="rev_slider_wrapper">
-  <div id="rev_slider_1" class="rev_slider" data-version="5.4.5" style="display:none">
-    <!-- BEGIN SLIDES LIST -->
-    <ul>
-      <!-- MINIMUM SLIDE STRUCTURE -->
-      <li data-transition="fade">
-        <!-- SLIDE'S MAIN BACKGROUND IMAGE -->
-        <img src="uploads/IMG_4200.jpg" alt="Sky" class="rev-slidebg tp-resizeme visible-sm" data-visibility="['on', 'on', 'off','off']">
-        <div class="tp-caption tp-resizeme tp-videolayer fullscreenvideo hidden-sm" 
-            data-type="video" 
-            data-ytid="6xVmKvT_qBk" 
-            data-videowidth="100%" 
-            data-videoheight="100%" 
-            data-autoplay="off" 
-            data-videocontrols="controls" 
-            data-nextslideatend="true" 
-            data-forcerewind="on" 
-            data-videoloop="loopandnoslidestop" 
-            data-videoattributes="version=3&enablejsapi=1&html5=1&hd=1&wmode=opaque&showinfo=0&rel=0&" 
-            data-visibility="['off', 'off', 'on', 'on']"
-            data-x="center" 
-            data-y="center" 
-            data-hoffset="0" 
-            data-voffset="0" 
-            data-basealign="slide">
-              
-            <iframe id="video-background" frameborder="0" allowfullscreen="1" gesture="media" src="https://www.youtube.com/embed/6xVmKvT_qBk?autoplay=1&amp;autohide=1&amp;modestbranding=0&amp;rel=0&amp;showinfo=0&amp;controls=0&amp;disablekb=1&amp;enablejsapi=1&amp;iv_load_policy=3&amp;origin=https%3A%2F%2Fcruglobal.github.io&amp;widgetid=1"></iframe>
-      <div>
-      </li>
-
-    </ul><!-- END SLIDES LIST -->
-  </div><!-- END SLIDER CONTAINER -->
+    <div class="video-background">
+        <div class="video-foreground">
+          <iframe frameborder="0" height="100%" width="100%" 
+            src="https://youtube.com/embed/6xVmKvT_qBk?autoplay=1&controls=0&showinfo=0&autohide=1">
+          </iframe>
+        </div> 
+      </div>
 </section>
 <!-- Wrapper Start -->
 <section id="retreats">
@@ -114,27 +88,6 @@
   </div>
 </section>
     {% include footer.html %}
-    <script type="text/javascript">
-      jQuery(document).ready(function() {
-        jQuery('#rev_slider_1').show().revolution({
-          responsiveLevels: [480, 720, 1024, 1240],
-          gridwidth:[480, 720, 1024, 1240],
-          gridheight:[400, 768, 960, 720],
-          /* [DESKTOP, LAPTOP, TABLET, SMARTPHONE] */
-          visibilityLevels:[480, 720, 1024, 1240],
-          delay:8000,
-              startwidth:1170,
-              startheight:500,
-              fullWidth:"on",
-              fullScreen:"off",
-              hideTimerBar: "off",
-              spinner:"spinner4",
-              navigationStyle: "preview4",
-              soloArrowLeftHOffset:20,
-              soloArrowRightHOffset:20,
-            fullScreenOffsetContainer: ".navbar"
-        });
-      });
-    </script>    
+    
 </body>
 </html>

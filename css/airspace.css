@@ -109,21 +109,19 @@ header .navbar-default .navbar-nav>li>a:hover {
 	Slider Start
 --*/
 #slider {
-  /*background: url("../img/legends-breakfast-header.jpg") no-repeat;
   background-size: cover;
-  background-attachment: fixed;*/
+  background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 0 0 0 0;
+  padding: 200px 0 280px 0;
   position: relative;
   z-index: -100;
-  margin-top: -50px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   overflow: hidden;
 }
 .video-background {
   background: #000;
-  /*position: fixed;*/
+  position: fixed;
   width: 100%;
   top: 0; right: 0; bottom: 0; left: 0;
   z-index: -99;
@@ -896,10 +894,12 @@ footer .footer-manu ul li a:hover {
 
 #retreats {
   margin-bottom: 50px;
+  position: relative;
+  background: #fff;
 }
 #retreats .container .row h2 { text-transform: uppercase; }
 
 #call-to-action {
-  -webkit-clip-path: polygon(0 0, 10% 0, 20% 0%, 0 100%);
-  clip-path: polygon(0 0, 10% 0, 20% 0%, 0 100%);
+  -webkit-clip-path: polygon(0% 22%, 100% 0%, 100% 99%, 0% 100%);
+  clip-path: polygon(0% 22%, 100% 0%, 100% 99%, 0% 100%);
 }
