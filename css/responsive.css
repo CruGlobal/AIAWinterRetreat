@@ -404,8 +404,12 @@ px      68    160    252    344    436    */
 @media only screen and (max-width: 480px) {
   .video-background {
     margin-top: -280px;
-    z-index: 0;
-    position: relative;
+  }
+
+  #retreats {
+    -webkit-clip-path: polygon(0% 22%, 100% 10%, 100% 99%, 0% 100%);
+    clip-path: polygon(0% 22%, 100% 10%, 100% 99%, 0% 100%);
+    padding-top: 200px;
   }
 
   #retreats h3 {
