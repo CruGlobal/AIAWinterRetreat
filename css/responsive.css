@@ -407,9 +407,9 @@ px      68    160    252    344    436    */
   }
 
   #retreats {
-    -webkit-clip-path: polygon(0% 22%, 100% 10%, 100% 99%, 0% 100%);
-    clip-path: polygon(0% 22%, 100% 10%, 100% 99%, 0% 100%);
-    padding-top: 200px;
+    /*-webkit-clip-path: polygon(0% 22%, 100% 10%, 100% 99%, 0% 100%);
+    clip-path: polygon(0% 22%, 100% 10%, 100% 99%, 0% 100%);*/
+    padding-top: 170px;
   }
 
   #retreats h3 {

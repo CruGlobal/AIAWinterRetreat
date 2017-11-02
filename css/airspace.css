@@ -120,7 +120,10 @@ header .navbar-default .navbar-nav>li>a:hover {
   overflow: hidden;
 }
 .video-background {
-  background: #000;
+  background: url('../uploads/IMG_7901.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   position: absolute;
   width: 100%;
   top: 0; right: 0; bottom: 0; left: 0;
