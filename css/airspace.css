@@ -904,6 +904,10 @@ footer .footer-manu ul li a:hover {
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);*/
   
 }
+
+#retreats a { color:  #003366; }
+#retreats a:hover, #retreats .post-area2 a:hover { color:  #fff; }
+#retreats .post-area2:hover { background-color: #58595b; }
 #retreats .container .row h2 { text-transform: uppercase; }
 
 #call-to-action {

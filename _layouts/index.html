@@ -12,7 +12,7 @@
 <section id="" class="video-background">
         <div class="video-foreground">
           <iframe frameborder="0" height="100%" width="100%" 
-            src="https://youtube.com/embed/6xVmKvT_qBk?autoplay=1&controls=0&showinfo=0&autohide=1">
+            src="https://youtube.com/embed/6xVmKvT_qBk?autoplay=1&controls=0&showinfo=0&autohide=1&rel=0">
           </iframe>
       </div>
 </section>
@@ -25,14 +25,14 @@
     <div class="row">
         {% assign sorted = (site.posts | sort: 'title') %}
         {% for post in sorted %}
-      <div class="col-md-4">
+      <div class="col-md-4 col-xs-6">
         <a href="{{ post.url | prepend: site.baseurl }}">
           <div class="post-area2 center-text">
             <h3>{{ post.title }}</h3>
             <p class="post-date">{{ post.retreat_date | date: '%B %d, %Y' }}</p>
             <p>{{ post.retreat_location }}</p>
             <p>
-                <a class=>Get More Info </a>
+                Get More Info
             </p>
           </div>
         </a>

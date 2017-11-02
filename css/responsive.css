@@ -404,5 +404,12 @@ px      68    160    252    344    436    */
 @media only screen and (max-width: 480px) {
   .video-background {
     margin-top: -280px;
+    z-index: 0;
+    position: relative;
+  }
+
+  #retreats h3 {
+    font-size: 16px;
+    font-weight: bold;
   }
 }
