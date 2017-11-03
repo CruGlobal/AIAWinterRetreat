@@ -4,6 +4,13 @@
       -webkit-clip-path: polygon(0% 22%, 100% 0%, 100% 99%, 0% 100%);
       clip-path: polygon(0% 22%, 100% 0%, 100% 99%, 0% 100%);
     }
+
+    header .navbar-brand img {
+      width: 80%;
+      margin: 15px;
+    }
+
+    .navbar-header { width: 30%; }
   }
 /*		Default Layout: 992px. 
 		Gutters: 24px.
