@@ -915,3 +915,7 @@ footer .footer-manu ul li a:hover {
   -webkit-clip-path: polygon(0% 22%, 100% 0%, 100% 99%, 0% 100%);
   clip-path: polygon(0% 22%, 100% 0%, 100% 99%, 0% 100%);
 }
+
+.navbar-header {
+  width: 40%;
+}
