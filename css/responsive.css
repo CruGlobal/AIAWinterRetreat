@@ -33,6 +33,9 @@ px      68    160    252    344    436    528    620    712    */
   /*--
 	wrapper Start 
 --*/
+.video-background {
+  background-position:  left -1080px top -10px
+}
 
 header .navbar-brand img {
   width: 80%;
@@ -189,6 +192,7 @@ px      68    160    252    */
 @media only screen and (max-width: 767px) {
   .video-background {
     margin-top: -200px;
+    background-position:  left -1080px top -100px
   }
   /*---------------------------------------------
 					Index Start 
@@ -452,6 +456,7 @@ px      68    160    252    344    436    */
 @media only screen and (max-width: 480px) {
   .video-background {
     margin-top: -121px;
+    background-position:  left -1080px top -140px
   }
 
   #retreats {
