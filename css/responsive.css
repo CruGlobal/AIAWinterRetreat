@@ -180,6 +180,10 @@ px      68    160    252    */
   .video-background {
     margin-top: -200px;
   }
+
+  header .navbar-default .navbar-nav li a {
+    padding: 0 0;
+  }
   /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
