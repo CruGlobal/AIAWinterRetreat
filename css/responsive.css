@@ -1,3 +1,10 @@
+@media only screen and (min-width: 992px) {
+  #retreats {
+  
+      -webkit-clip-path: polygon(0% 22%, 100% 0%, 100% 99%, 0% 100%);
+      clip-path: polygon(0% 22%, 100% 0%, 100% 99%, 0% 100%);
+    }
+  }
 /*		Default Layout: 992px. 
 		Gutters: 24px.
 		Outer margins: 48px.
@@ -19,6 +26,12 @@ px      68    160    252    344    436    528    620    712    */
   /*--
 	wrapper Start 
 --*/
+
+header .navbar-brand img {
+  width: 80%;
+  margin: 15px;
+}
+.navbar-header { width: 162px; }
   #wrapper {
     text-align: center;
   }
@@ -150,6 +163,11 @@ px      68    160    252    344    436    528    620    712    */
 					contact close 
 -----------------------------------------------*/
   /*------------------*/
+  #retreats {
+    padding-top: 150px;
+    -webkit-clip-path: polygon(0% 22%, 100% 0%, 100% 99%, 0% 100%);
+    clip-path: polygon(0% 22%, 100% 0%, 100% 99%, 0% 100%);
+  }
 }
 /*		Mobile Layout: 320px.
 		Gutters: 24px.
@@ -389,6 +407,26 @@ px      68    160    252    */
   footer .footer-manu {
     display: none;
   }
+
+  #retreats { 
+    padding-top: 30px;
+  }
+  #retreats h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .post-area2 {
+    height: 200px;
+  }
+
+  .post-area2 h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  header .navbar-brand img {
+    width: 30%;
+    margin: 15px;
+  }
 }
 /*		Wide Mobile Layout: 480px.
 		Gutters: 24px.
@@ -403,17 +441,30 @@ px      68    160    252    344    436    */
 -----------------------------------------------    */
 @media only screen and (max-width: 480px) {
   .video-background {
-    margin-top: -280px;
+    margin-top: -121px;
   }
 
   #retreats {
     /*-webkit-clip-path: polygon(0% 22%, 100% 10%, 100% 99%, 0% 100%);
     clip-path: polygon(0% 22%, 100% 10%, 100% 99%, 0% 100%);*/
-    padding-top: 170px;
+    /*padding-top: 170px;*/
   }
 
   #retreats h3 {
     font-size: 16px;
     font-weight: bold;
+  }
+
+  header .navbar-brand img {
+    width: 30%;
+    margin: 15px;
+  }
+  #call-to-action {
+    padding-top: 100px;
+  } 
+  .post-area2
+  {
+    margin: 20px 0 10px;
+    overflow: hidden;
   }
 }
