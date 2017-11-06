@@ -34,7 +34,12 @@ px      68    160    252    344    436    528    620    712    */
 	wrapper Start 
 --*/
 .video-background {
-  background-position:  left -1080px top -10px
+  /*background-position:  left -1080px top -10px*/
+  display: none;
+}
+#retreats {
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 header .navbar-brand img {
@@ -177,9 +182,9 @@ header .navbar-default .navbar-nav li a {
 -----------------------------------------------*/
   /*------------------*/
   #retreats {
-    padding-top: 150px;
-    -webkit-clip-path: polygon(0% 22%, 100% 0%, 100% 99%, 0% 100%);
-    clip-path: polygon(0% 22%, 100% 0%, 100% 99%, 0% 100%);
+    /* padding-top: 150px;
+     -webkit-clip-path: polygon(0% 22%, 100% 0%, 100% 99%, 0% 100%);
+    clip-path: polygon(0% 22%, 100% 0%, 100% 99%, 0% 100%); */
   }
 }
 /*		Mobile Layout: 320px.
@@ -191,8 +196,12 @@ cols    1     2      3
 px      68    160    252    */
 @media only screen and (max-width: 767px) {
   .video-background {
-    margin-top: -200px;
-    background-position:  left -1080px top -100px
+    display: none;
+/*    margin-top: -200px;
+    background-position:  left -1080px top -100px*/
+  }
+  #retreats {
+    margin-top: 0px;
   }
   /*---------------------------------------------
 					Index Start 
@@ -455,14 +464,16 @@ px      68    160    252    344    436    */
 -----------------------------------------------    */
 @media only screen and (max-width: 480px) {
   .video-background {
-    margin-top: -121px;
-    background-position:  left -1080px top -140px
+    display: none;
+    /*margin-top: -121px;
+    background-position:  left -1080px top -140px*/
   }
 
   #retreats {
     /*-webkit-clip-path: polygon(0% 22%, 100% 10%, 100% 99%, 0% 100%);
     clip-path: polygon(0% 22%, 100% 10%, 100% 99%, 0% 100%);*/
     /*padding-top: 170px;*/
+    margin-top: 0px;
   }
 
   #retreats h3 {
