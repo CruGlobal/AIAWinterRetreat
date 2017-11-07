@@ -5,17 +5,25 @@ retreat_date: 2018-02-02 00:00:00 Z
 retreat_location: Downtown Chi Town
 retreat_ID: 1864
 ---
+<div class="c-video">
+<iframe src="https://player.vimeo.com/video/203519067" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+Come to Athletes In Action's Winter Retreat and join 150\+ student athletes from campuses in Indiana, Illinois, Iowa, Michigan, Minnesota and Wisconsin to be encouraged as you learn how God, life and sports connect.
 
-Come join 150\+ student athletes from campuses in Indiana, Illinois, Iowa, Michigan, Minnesota and Wisconsin to be encouraged as you learn how God, life and sports connect.
+### Dates: 
+February 2nd- 4th, 2018
 
-**Dates:** February 2nd- 4th, 2018
+### Location:
+Hyatt Chicago Magnificent Mile (633 North St. Claire, Chicago IL 60611)
 
-**Location:** Hyatt Chicago Magnificent Mile (633 North St. Claire, Chicago IL 60611)
+### Cost:
+$175 (Before Jan. 14th), $200 (After Jan. 14th)
 
-**Cost:** $175 (Before Jan. 14th), $200 (After Jan. 14th)
+### Band:
+Run51
 
-**Band:** Run51
+### AIA Contact:
+[Nick Castelluccio](mailto:nick.castelluccio@athletesinaction.org) and [Brad Noel](mailto:brad.noel@athletesinaction.org)
 
-**AIA Contact:** [Nick Castelluccio](https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=nick.castelluccio@athletesinaction.org) and [Brad Noel](https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=brad.noel@athletesinaction.org)
-
-**Other Details:** Cost includes the conference, parking (as needed), a shared bed, Hot Breakfast Saturday and Sunday (eggs, breakfast meat, potatoes, pastries, coffee, juices), and a Run51 Concert on Saturday night.
+### Other Details:
+Cost includes the conference, parking (as needed), a shared bed, Hot Breakfast Saturday and Sunday (eggs, breakfast meat, potatoes, pastries, coffee, juices), and a Run51 Concert on Saturday night.

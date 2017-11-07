@@ -213,7 +213,7 @@ px      68    160    252    */
     font-size: 18px;
   }
   p {
-    font-size: 13px;
+    font-size: 16px;
   }
   header .navbar-default .navbar-toggle {
     margin-top: 20px;
@@ -430,10 +430,9 @@ px      68    160    252    */
   footer .footer-manu {
     display: none;
   }
-
-  #retreats { 
-    padding-top: 30px;
-  }
+#retreats {
+  padding-top: 0px;
+}
   #retreats h2 {
     font-size: 18px;
     font-weight: bold;
@@ -472,7 +471,7 @@ px      68    160    252    344    436    */
   #retreats {
     /*-webkit-clip-path: polygon(0% 22%, 100% 10%, 100% 99%, 0% 100%);
     clip-path: polygon(0% 22%, 100% 10%, 100% 99%, 0% 100%);*/
-    /*padding-top: 170px;*/
+    padding-top: 0px;
     margin-top: 0px;
   }
 

@@ -35,11 +35,11 @@ h2 {
   font-weight: 400;
 }
 h3 {
-  font-size: 28px;
-  font-weight: 300;
+  font-size: 26px;
+  font-weight: 400;
 }
 p {
-  font-size: 15px;
+  font-size: 20px;
   line-height: 28px;
 }
 ul {
@@ -174,7 +174,7 @@ header .navbar-default .navbar-nav>li>a:hover {
 	wrapper Start
 --*/
 #intro {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 #intro .block h2 {
   padding-top: 35px;
@@ -182,8 +182,11 @@ header .navbar-default .navbar-nav>li>a:hover {
   margin: 0;
 }
 #intro .block p {
-  color: #7B7B7B;
-  padding-top: 20px;
+  color: #4c4a4a;
+  padding-top: 10px;
+}
+#intro .block p strong {
+  color: #000;
 }
 #intro .block img {
   padding-left: 40px;
