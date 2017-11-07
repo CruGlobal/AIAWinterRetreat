@@ -5,6 +5,7 @@ retreat_date: 2018-03-02 20:18:00 Z
 retreat_location: YMCA of the Rockies
 retreat_ID: 1857
 ---
+
 Mountains. Trees. Snow. Athletes. Jesus. What else can you ask for? At Athletes In Action's Rocky Mountain Winter Retreat, join hundreds of other athletes for a weekend centering on how God, Life and Sport intersect. Together we will pursue what it means to be Jesus centered and take our faith to the NEXT LEVEL.
 
 ### Dates:
