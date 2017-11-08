@@ -18,7 +18,7 @@ YMCA of the Rockies (2515 Tunnel Rd, Estes Park, CO 80511)
 $100 before February 17th ($120 after)
 
 ### Band
-Run51
+[Run51](http://wearerun51.com)
 
 ### Speaker
 LaMorris Crawford
