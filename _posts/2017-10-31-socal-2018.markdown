@@ -6,7 +6,7 @@ retreat_location: Pine Valley, CA
 retreat_ID: 1874
 ---
 
-At Athletes In Action's SoCal Winter Retreat, join hundreds of other athletes for a weekend centering on how God, Life and Sport intersect. Together we will pursue what it means to be Jesus centered.
+<img src="/uploads/IMG2117719761.jpg" style="float:right; width: 50%" />At Athletes In Action's SoCal Winter Retreat, join hundreds of other athletes for a weekend centering on how God, Life and Sport intersect. Together we will pursue what it means to be Jesus centered.
 
 ### Theme 
 RENEW
