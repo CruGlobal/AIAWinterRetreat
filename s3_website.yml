@@ -1,4 +1,5 @@
 s3_id: <%= ENV['S3_ACCESS_KEY_ID'] %>
 s3_secret: <%= ENV['S3_SECRET_KEY'] %>
 s3_bucket: aiawinterretreat.com
+cloudfront_distribution_id: E2G0FRRT8H3RN1
 cloudfront_wildcard_invalidation: true
