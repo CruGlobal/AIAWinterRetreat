@@ -7,7 +7,7 @@ $(document).ready(function(){
 	$("#testimonial-slider").owlCarousel({
 	    paginationSpeed : 1000,      
 	    singleItem:true,
-	    autoPlay: 3000,
+	    autoPlay: 5000,
 	});
 
 
