@@ -32,12 +32,17 @@
       <div class="col-md-4 col-xs-6">
         <a href="{{ post.url | prepend: site.baseurl }}">
           <div class="post-area2 center-text">
-            <h3>{{ post.title }}</h3>
-            <p class="post-date">{{ post.retreat_date | date: '%B %d, %Y' }}</p>
-            <p>{{ post.retreat_location }}</p>
-            <p>
-                Get More Info
-            </p>
+            <div id="map{{forloop.index}}" class="map"></div>
+            <div style="z-index: 1; position: relative;">
+              <div>
+                <h3>{{ post.title }}</h3>
+                <p class="post-date">{{ post.retreat_date | date: '%B %d, %Y' }}</p>
+                <p class="address{{forloop.index}}">{{ post.retreat_location }}</p>
+                <p>
+                    Get More Info
+                </p>
+              </div>
+            </div>
           </div>
         </a>
       </div>
@@ -90,6 +95,52 @@
   </div>
 </section>
     {% include footer.html %}
-    
+    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyD-nePEeRv-rxuUWacBqdjKfx79nd_3bNY"></script>
+    <script>
+      var map1, map2, map3, map4, map5, map6, map7, map8, map9;
+      var geocoder;
+      /* Map */
+      function intitialize() {
+          "use strict";
+          geocoder = new google.maps.Geocoder();
+          var index=1;
+          var validMap = true;
+          while (validMap) {
+            if (document.getElementById("map" + index.toString())) {
+                var address = $('.address'+ index.toString()).text();
+                codeAddress(address, index);               
+            } else { validMap = false}
+
+            index++;
+          }          
+      };
+
+      function codeAddress(address, index) {
+            // Define address to center map to
+            //var address = 'Chicago, IL';
+
+            geocoder.geocode({
+                'address': address
+            }, function (results, status) {
+
+                if (status == google.maps.GeocoderStatus.OK) {
+                    map1 = new google.maps.Map(document.getElementById("map" + index.toString()), {
+                        zoom: 13,
+                        scrollwheel: false,
+                        disableDefaultUI: true,
+                        center: results[0].geometry.location,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP,
+                        //styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":85},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]
+                        styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":20}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
+                    });
+                    $("#map" + index.toString()).parent().parent().addClass("map-loaded");
+                } else {
+                    
+                }
+            });
+        }
+
+        intitialize();
+  </script>
 </body>
 </html>

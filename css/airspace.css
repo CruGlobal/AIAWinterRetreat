@@ -859,6 +859,7 @@ footer .footer-manu ul li a:hover {
   margin: -20px 5px 15px;
   background: #e5e5e5;
   margin-top: 10px;
+  position: relative;
 }
 
 .post-area2 .pTitle {
@@ -913,6 +914,7 @@ footer .footer-manu ul li a:hover {
 }
 
 #retreats a { color:  #003366; }
+#retreats a.map-loaded { color:  #fff; }
 #retreats a:hover, #retreats .post-area2 a:hover { color:  #fff; }
 #retreats .post-area2:hover { background-color: #58595b; }
 #retreats .container .row h2 { text-transform: uppercase; }
@@ -939,4 +941,22 @@ footer .footer-manu ul li a:hover {
 
 .post h3 {
   margin-bottom: -7px;
+}
+
+.map {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.gmnoprint, .gm-style-cc {
+  display: none;
+}
+
+img[src="http://maps.gstatic.com/mapfiles/api-3/images/google_white5.png"] {
+  display: none;
 }
