@@ -14,12 +14,14 @@ layout: page
             {{ content }}
             <p>&nbsp;</p>
           </div>
+          {% if page.retreat_ID > 0 %}
           <div class="block col-md-10 col-md-offset-1">
             <div class="register">
               <h2>Register Now</h2>
             </div>
             <iframe width="100%" height="4200px" src="https://my.athletesinaction.org/public/forms/winter-retreat.aspx?EventID={{page.retreat_ID}}" seamless="seamless" frameborder="0" style="overflow: hidden;"></iframe>
           </div>
+          {% endif %}
         </div><!-- .col-md-7 close -->
       </div>
     </div>
