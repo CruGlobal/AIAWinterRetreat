@@ -6,6 +6,8 @@ retreat_location: Lebanon, PA
 retreat_ID: 1880
 ---
 
+<div class="c-video"><iframe src="https://www.youtube.com/embed/692rEYWoKZg" frameborder="0" allowfullscreen></iframe>
+</div>
 Come join 50+ student athletes from campuses in New Jersey, Pennsylvania, MD, DE, VA and WV at Athletes In Action's Winter Retreat to be encouraged as you learn how God, life and sports connect. Make some new friends, dive deeper into God's Word & be ready for some fun competition as well!
 
 ### Dates
