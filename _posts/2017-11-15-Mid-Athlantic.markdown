@@ -1,6 +1,6 @@
 ---
 title: Mid-Atlantic Winter Retreat
-date: 2017-11-15
+date: 2017-11-15 00:00:00 Z
 retreat_date: 2018-02-09 20:18:00 Z
 retreat_location: Lebanon, PA
 retreat_ID: 1880
