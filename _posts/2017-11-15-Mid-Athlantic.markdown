@@ -20,10 +20,10 @@ Kenbrook Bible Camp (190 Pine Meadow Rd, Lebanon, PA 17046)
 $140
 
 ### Speaker
-Lionel King
+Bill Paige
 
 ### AIA Contact
-[John Mauer](mailto:john.mauere@athletesinaction.org) 
+[Jay Wilson](mailto:jay.wilson@athletesinaction.org) 
 
 ### Other Details 
 Cost includes the conference fee, 2 nights lodging, Saturday breakfast, lunch & dinner and Sunday breakfast. Plan on arriving sometime between 7-9pm Friday. PLEASE have dinner on your own before you arrive.
