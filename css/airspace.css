@@ -960,3 +960,44 @@ footer .footer-manu ul li a:hover {
 img[src="http://maps.gstatic.com/mapfiles/api-3/images/google_white5.png"], img[src="https://maps.gstatic.com/mapfiles/api-3/images/google_white5.png"], img[src="https://maps.gstatic.com/mapfiles/api-3/images/google_white5_hdpi.png"] {
   display: none;
 }
+
+
+.navbar-top-nav li {
+    float: left;
+    margin-right: 10px;
+}
+
+.navbar-top-nav li a { color: #FFF; }
+
+.navbar-top-nav li:after, .navbar-top .social-icon:after {
+  content: '/';
+  color: #6d6d6d;
+  padding-left: 10px;
+}
+.navbar-top-nav li:last-child:after, .navbar-top .social-icon:last-child:after {
+  content: ' ';
+  padding-left: 0;
+}
+.clearfix:after { clear: both; }
+.navbar-.navbar-top-nav {
+  content: " ";
+}
+
+.navbar-top .social-icon {
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 38px;
+  padding-right: 0;
+  margin-left: 0;
+}
+
+.social-icon {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1;
+  margin: 0 10px 20px;
+  color: #FFF;
+  border-radius: 4px;
+}
+
+.navbar-top { border-bottom: 1px solid #6d6d6d; line-height: 38px; color: #6d6d6d; }
