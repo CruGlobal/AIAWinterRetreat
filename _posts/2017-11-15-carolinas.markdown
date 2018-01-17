@@ -1,11 +1,10 @@
 ---
-title: Carolinas 
+title: Carolinas
 date: 2017-11-15 00:00:00 Z
 retreat_date: 2018-02-02 20:18:00 Z
 retreat_location: Lake Wyile, SC
-retreat_ID:
+retreat_ID: 
 ---
-
 
 ### Dates
 Friday, Feb. 2nd 
