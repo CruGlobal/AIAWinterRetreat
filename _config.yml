@@ -17,6 +17,7 @@ defaults:
     retreat_location: TBA
     retreat_ID: 0
     layout: post
+    alt_url: 
 exclude:
 - "/vendor/"
 - Gemfile

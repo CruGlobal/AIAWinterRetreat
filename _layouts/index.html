@@ -30,7 +30,11 @@
         {% assign sorted = (site.posts | sort: 'title') %}
         {% for post in sorted %}
       <div class="col-md-4 col-xs-6">
-        <a href="{{ post.url | prepend: site.baseurl }}">
+        {% if post.alt_url %}
+          <a href="{{ post.alt_url }}">
+        {% else %}
+          <a href="{{ post.url | prepend: site.baseurl }}">
+        {% endif %}
           <div class="post-area2 center-text">
             <div id="map{{forloop.index}}" class="map"></div>
             <div style="z-index: 1; position: relative;">
