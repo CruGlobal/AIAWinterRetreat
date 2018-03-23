@@ -11,16 +11,21 @@ layout: page
           <div class="block col-md-10 col-md-offset-1">
             <h1 class="text-center">{{ page.title }} Winter Retreat</h1>
             <hr />
+            {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+            {% capture posttime %}{{post.retreat_date | date: '%s'}}{% endcapture %}
+            {% if posttime < nowunix %}
+            <h4 style="margin: 20px 10px;">The info below is for this past year's retreat.  Check back in the fall for information about future retreats.</h4>
+            {% endif %}
             {{ content }}
             <p>&nbsp;</p>
           </div>
-          {% if page.retreat_ID > 0 %}
-          <div class="block col-md-10 col-md-offset-1">
-            <div class="register">
-              <h2>Register Now</h2>
+          {% if posttime > nowunix and page.retreat_ID > 0  %}
+            <div class="block col-md-10 col-md-offset-1">
+              <div class="register">
+                <h2>Register Now</h2>
+              </div>
+              <iframe width="100%" height="4200px" src="https://my.athletesinaction.org/public/forms/winter-retreat.aspx?EventID={{page.retreat_ID}}" seamless="seamless" frameborder="0" style="overflow: hidden;"></iframe>
             </div>
-            <iframe width="100%" height="4200px" src="https://my.athletesinaction.org/public/forms/winter-retreat.aspx?EventID={{page.retreat_ID}}" seamless="seamless" frameborder="0" style="overflow: hidden;"></iframe>
-          </div>
           {% endif %}
         </div><!-- .col-md-7 close -->
       </div>

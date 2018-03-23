@@ -53,3 +53,11 @@
 .reservationBox h3:hover {
   color: white;
 }
+
+#retreats a:hover .info.over span {
+  display: none;
+}
+
+#retreats a:hover .info.over::before {
+  content: "This Retreat has finished."
+}

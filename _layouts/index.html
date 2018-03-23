@@ -25,9 +25,15 @@
     <div class="row center-text">
       <h1>Athletes In Action Winter Retreats</h1>
       <h2>Find One Near You</h2>
+      {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+      {% assign last = site.posts | sort: 'retreat_date' | reverse | limit: 1 %}
+      {% capture posttime %}{{last.retreat_date | date: '%s'}}{% endcapture %}
+      {% if posttime < nowunix %}
+      <h3 style="color: #990000;">All retreats for this year have now finished.   <br />Please check back in the fall for information about next year's retreats.</h3>
+      {% endif %}
     </div>
     <div class="row">
-        {% assign sorted = (site.posts | sort: 'title') %}
+        {% assign sorted = site.posts | sort: 'title' %}
         {% for post in sorted %}
       <div class="col-md-4 col-xs-6">
         {% if post.alt_url %}
@@ -42,8 +48,13 @@
                 <h3>{{ post.title }}</h3>
                 <p class="post-date">{{ post.retreat_date | date: '%B %d, %Y' }}</p>
                 <p class="address{{forloop.index}}">{{ post.retreat_location }}</p>
-                <p>
-                    Get More Info
+                {% capture posttime %}{{post.retreat_date | date: '%s'}}{% endcapture %}
+                {% if posttime < nowunix %}
+                <p class="info over">
+                {% else %}
+                  <p class="info">
+                {% endif %}
+                    <span>Get More Info</span>
                 </p>
               </div>
             </div>
