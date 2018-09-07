@@ -12,7 +12,7 @@ layout: page
             <h1 class="text-center">{{ page.title }} Winter Retreat</h1>
             <hr />
             {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-            {% capture posttime %}{{post.retreat_date | date: '%s'}}{% endcapture %}
+            {% capture posttime %}{{page.retreat_date | date: '%s'}}{% endcapture %}
             {% if posttime < nowunix %}
             <h4 style="margin: 20px 10px;">The info below is for this past year's retreat.  Check back in the fall for information about future retreats.</h4>
             {% endif %}
