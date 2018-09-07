@@ -4,6 +4,7 @@ date: 2017-10-31 19:30:00 Z
 retreat_date: 2018-02-02 00:00:00 Z
 retreat_location: Xenia, OH
 retreat_ID: 1826
+old: 1
 ---
 
 Come to Athletes In Action's Xenia Winter Retreat, come join student athletes from campuses in and around Ohio (Indiana, Michigan, Kentucky, West Virginia, and Pennsylvania) to be encouraged as you learn how God, life and sports connect. The retreat is held on the property of the Athletes in Action World Headquarters in Xenia, Ohio. Meet other athletes, get away from the daily grind and hear from retreat speakers who get what it’s like to be in your shoes.
