@@ -1,31 +1,28 @@
 ---
 title: SoCal 2018
 date: 2017-10-31 19:35:00 Z
-retreat_date: 2018-01-26 00:00:00 Z
+retreat_date: 2018-01-25 00:00:00 Z
 retreat_location: Pine Valley, CA
-retreat_ID: 1874
-old: 1
+retreat_ID: 1958
+old: 0
 ---
 
-<img src="/uploads/IMG2117719761.jpg" style="float:right; width: 50%" />At Athletes In Action's SoCal Winter Retreat, join hundreds of other athletes for a weekend centering on how God, Life and Sport intersect. Together we will pursue what it means to be Jesus centered.
+At Athletes In Action's SoCal Winter Retreat, join hundreds of other athletes for a weekend centering on how God, Life and Sport intersect. Together we will pursue what it means to be Jesus centered.
 
 ### Theme 
 RENEW
 
 ### Dates  
-Friday, Jan. 26th -  Sunday, Jan. 28th, 2018
+Friday, Jan. 25th -  Sunday, Jan. 27th, 2019
 
 ### Location  
 Pine Valley Retreat Center (8668 Pine Creek Rd, Pine Valley, CA 91962 )
 
 ### Cost  
-$135 ($125 for those who register by December 12th)
+$135
 
 ### Speaker(s)  
-Riccardo Stewart
-
-### Also Featuring 
-DJ Standout (Twitter: [@djstandout](https://twitter/djstandout))
+TBD
 
 ### AIA Contact  
 [Jimmy Brown](mailto:jimmy.brown@athletesinaction.org)
