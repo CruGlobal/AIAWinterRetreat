@@ -4,7 +4,7 @@ date: 2017-10-31 19:35:00 +0000
 retreat_date: 2019-01-18 05:00:00 +0000
 retreat_location: Branson, MO
 retreat_ID: 1989
-old: false
+old: 0
 
 ---
 At Athletes In Action's SoCal Winter Retreat, join hundreds of other athletes for a weekend centering on how God, Life and Sport intersect. Together we will pursue what it means to be Jesus centered.
