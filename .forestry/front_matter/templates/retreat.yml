@@ -1,0 +1,21 @@
+---
+label: Retreat
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: datetime
+  label: retreat_date
+  name: retreat_date
+- type: text
+  name: retreat_location
+  label: retreat_location
+- type: number
+  name: retreat_ID
+  label: Event ID
+  description: From myAIA
+- type: boolean
+  name: old
+  label: Current Event?
