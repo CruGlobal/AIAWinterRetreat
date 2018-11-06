@@ -7,7 +7,6 @@ sections:
 - type: jekyll-posts
   label: Retreats
   create: documents
-  match: "**/*"
   templates:
   - retreat
 upload_dir: uploads
