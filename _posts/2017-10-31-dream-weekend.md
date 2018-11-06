@@ -7,11 +7,11 @@ retreat_ID: 1989
 old: 0
 
 ---
-![](/uploads/Dream Weekend Branson Flyer.jpeg)At Athletes In Action's SoCal Winter Retreat, join hundreds of other athletes for a weekend centering on how God, Life and Sport intersect. Together we will pursue what it means to be Jesus centered.
+![](/uploads/Dream Weekend Branson Flyer.jpeg)A weekend honoring Dr. King and his dream, while learning to pursue the Revelation 7:9 DREAM of THE KING
 
-### Theme
+ Theme
 
-RENEW
+DREAM WEEKEND
 
 ### Dates
 
@@ -27,12 +27,12 @@ $95 before Jan 1., $115 after
 
 ### Speaker(s)
 
-TBD
+Cameron Freund
 
 ### AIA Contact
 
-[Jimmy Brown](mailto:jimmy.brown@athletesinaction.org)
+Paul Scheele
 
 ### Other Details
 
-Included are two nights lodging, four meals (BLD on Saturday and B on Sunday). Bring your own sleeping bag and pillow, towel, casual and athletic wear. Check-in starts at 7:30 PM Friday night. Retreat ends at 11:45 AM on Sunday morning.
+Included are two nights lodging, five meals (Friday dinner, BLD on Saturday and B on Sunday). Bring your own sleeping bag and pillow. Check-in starts at 4:00 PM Friday. Retreat ends at 11:30 AM on Sunday morning.
