@@ -32,7 +32,3 @@ Cameron Freund
 ### AIA Contact
 
 Paul Scheele
-
-### Other Details
-
-Included are two nights lodging, five meals (Friday dinner, BLD on Saturday and B on Sunday). Bring your own sleeping bag and pillow. Check-in starts at 4:00 PM Friday. Retreat ends at 11:30 AM on Sunday morning.
