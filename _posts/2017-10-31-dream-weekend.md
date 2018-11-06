@@ -7,7 +7,7 @@ retreat_ID: 1989
 old: 0
 
 ---
-At Athletes In Action's SoCal Winter Retreat, join hundreds of other athletes for a weekend centering on how God, Life and Sport intersect. Together we will pursue what it means to be Jesus centered.
+![](/uploads/Dream Weekend Branson Flyer.jpeg)At Athletes In Action's SoCal Winter Retreat, join hundreds of other athletes for a weekend centering on how God, Life and Sport intersect. Together we will pursue what it means to be Jesus centered.
 
 ### Theme
 
