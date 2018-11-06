@@ -9,7 +9,7 @@ old: true
 ---
 ![](/uploads/Dream Weekend Branson Flyer.jpeg)A weekend honoring Dr. King and his dream, while learning to pursue the Revelation 7:9 DREAM of THE KING
 
- Theme
+Theme
 
 DREAM WEEKEND
 
@@ -23,7 +23,7 @@ Branson, MO (Kids Across America Camp Golden, MO)
 
 ### Cost
 
-$95 before Jan 1., $115 after
+$95 before Dec 18th, $115 after
 
 ### Speaker(s)
 
