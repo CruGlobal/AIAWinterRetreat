@@ -22,3 +22,7 @@ fields:
   default: false
   description: Toggle when event should be hidden from the home page - during planning
     for next year
+- type: text
+  name: alt_url
+  label: alt_url
+  description: Fill in if the registration form is not on myAIA.
