@@ -4,7 +4,7 @@ date: 2017-10-31 19:33:00 Z
 retreat_date: 2019-02-08 20:18:00 Z
 retreat_location: YMCA Camp Woodstock
 retreat_ID: 1967
-old: 0
+old: false
 ---
 
 Come to Athletes In Action's Northeast Winter Retreat and join 100 student athletes from Boston, Brown, NYC, Rochester, UConn, UMass, Yale, and more! Be encouraged as you learn how God, life and sports connect.

@@ -4,7 +4,7 @@ date: 2017-10-31 19:52:00 +0000
 retreat_date: 2019-01-12 00:00:00 +0000
 retreat_location: Waxahachie, TX
 retreat_ID: 1838
-old: 0
+old: false
 
 ---
 At Athletes In Action's Red River Winter Retreat, escape the campus grind with friends and learn how God, life and sports connect. Meet athletes from other schools in the Red River Region. Hear from speakers who have walked in your shoes. Learn how to take your conversations to a new spiritual level.

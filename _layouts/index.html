@@ -34,7 +34,7 @@
       {% endif %}
     </div>
     <div class="row">
-        {% assign sorted = site.posts | sort: 'title' | where: "old", 0 %}
+        {% assign sorted = site.posts | sort: 'title' | where: "old", "false" %}
         {% for post in sorted %}
           <div class="col-md-4 col-xs-6">
             {% if post.alt_url %}

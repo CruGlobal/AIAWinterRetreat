@@ -5,7 +5,7 @@ retreat_date: 2019-03-01 20:18:00 +0000
 retreat_location: YMCA of the Rockies
 retreat_ID: 
 alt_url: http://www.nextlevelretreat.org/
-old: 0
+old: false
 
 ---
 Mountains. Trees. Snow. Athletes. Jesus. What else can you ask for? At Athletes In Action's Rocky Mountain Winter Retreat, join hundreds of other athletes for a weekend centering on how God, Life and Sport intersect. Together we will pursue what it means to be Jesus centered and take our faith to the NEXT LEVEL.
