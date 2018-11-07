@@ -1,5 +1,5 @@
 ---
-title: Dream Weekend
+title: Dream Weekend Branson
 date: 2017-10-31 19:35:00 +0000
 retreat_date: 2019-01-18 05:00:00 +0000
 retreat_location: Branson, MO
@@ -7,11 +7,13 @@ retreat_ID: 1989
 old: false
 
 ---
-![](/uploads/Dream Weekend Branson Flyer.jpeg)A weekend honoring Dr. King and his dream, while learning to pursue the Revelation 7:9 DREAM of THE KING
+![](/uploads/Dream Weekend Branson Flyer.jpeg)
 
 ### Theme
 
 DREAM WEEKEND
+
+A weekend honoring Dr. King and his dream, while learning to pursue the Revelation 7:9 DREAM of THE KING
 
 ### Dates
 
