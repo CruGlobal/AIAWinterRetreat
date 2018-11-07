@@ -16,12 +16,6 @@ fields:
   name: retreat_ID
   label: Event ID
   description: From myAIA
-- type: boolean
-  name: old
-  label: Hide Event
-  default: false
-  description: Toggle when event should be hidden from the home page - during planning
-    for next year
 - type: text
   name: alt_url
   label: alt_url
