@@ -7,7 +7,7 @@ retreat_ID: 1958
 old: false
 
 ---
-![](/uploads/AIA-2019-retreat-flyer-front.jpg)At Athletes In Action's SoCal Winter Retreat, join hundreds of other athletes for a weekend centering on how God, Life and Sport intersect. Together we will pursue what it means to be Jesus centered.
+{{ '/uploads/AIA-2019-retreat-flyer-front.jpg' | right_image }} At Athletes In Action's SoCal Winter Retreat, join hundreds of other athletes for a weekend centering on how God, Life and Sport intersect. Together we will pursue what it means to be Jesus centered.
 
 ### Theme
 
