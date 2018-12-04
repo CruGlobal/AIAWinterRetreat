@@ -11,13 +11,13 @@ old: false
 
 ### Theme
 
-DREAM WEEKEND
+DREAM WEEKEND BRANSON
 
 A weekend honoring Dr. King and his dream, while learning to pursue the Revelation 7:9 DREAM of THE KING
 
 ### Dates
 
-Friday, Jan 18th - Sunday, Jan 20th, 2019  (4pm Jan 18 - 11:30am Jan 20) 
+Friday, Jan 18th - Sunday, Jan 20th, 2019  (4pm Jan 18 - 11:30am Jan 20)
 
 Meals: Friday Supper - Sunday Breakfast (5)
 
@@ -37,14 +37,14 @@ Cameron Friend
 
 Cameron Friend is a minister, speaker, frequent podcast host, and chaplain from Denver, Colorado. He was a captain, an all-conference linebacker, and a four-year letter winner while playing football at the University of Northern Colorado. He graduated with a B.A. in both Political Science and Philosophy while also completing a minor in Legal Studies.
 
-Following his time at Northern Colorado and a brief time training for the NFL, he went on to Baylor University where he received his M.Div at George W. Truett Seminary.  
-  
-Shortly after he moved to Atlanta, he began his ministry career by working alongside Pastor Lee Jenkins at Eagles Nest Church. He is most well-known for his work in the areas of racial justice and conversations around race and culture. During his time in ministry, he has interacted with Andy Stanley, Tony Evans, Louie Giglio, Lecrae, and many other prominent Christian leaders.  
-  
+Following his time at Northern Colorado and a brief time training for the NFL, he went on to Baylor University where he received his M.Div at George W. Truett Seminary.
+
+Shortly after he moved to Atlanta, he began his ministry career by working alongside Pastor Lee Jenkins at Eagles Nest Church. He is most well-known for his work in the areas of racial justice and conversations around race and culture. During his time in ministry, he has interacted with Andy Stanley, Tony Evans, Louie Giglio, Lecrae, and many other prominent Christian leaders.
+
 Most notably is his work alongside Bernice King, the youngest daughter of the late Dr. Martin Luther King, Jr. In April of this year Cameron, along with three others, was tasked with organizing a trip to Memphis commemorating the 50th anniversary of the assassination of Dr. Martin Luther King, Jr. on behalf of Bernice King and the King Center of Atlanta.
 
-He also wrote the outline for the speech recited during the March for 'Humanity' this past March in which the daughters of Dr. Martin Luther King, Jr., Malcolm X, Medgar Evars and John F. Kennedy spoke from in front of thousands of attendants.  
-  
+He also wrote the outline for the speech recited during the March for 'Humanity' this past March in which the daughters of Dr. Martin Luther King, Jr., Malcolm X, Medgar Evars and John F. Kennedy spoke from in front of thousands of attendants.
+
 Throughout Cameron's short time in ministry he has had the privilege of serving Christ in multiple countries, states, university campuses, high schools and churches with the expectation that the best is yet to come.
 
 ### Other Details
