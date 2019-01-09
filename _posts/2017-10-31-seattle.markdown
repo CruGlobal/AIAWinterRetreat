@@ -1,27 +1,31 @@
 ---
 title: Seattle
-date: 2017-10-31 19:55:00 Z
+date: 2017-10-31 19:55:00 +0000
 retreat_date: 2019-02-01 00:00:00 +0000
 retreat_location: Bellevue, WA
 retreat_ID: 2002
-published: true
----
 
+---
 At Athletes In Action's Seattle Winter Retreat, join for the weekend of growing with God and others as we look at what it means to be "Dangerous"!
 
-### Dates  
+### Dates
+
 Friday, February 1st -  Sunday, February 3rd, 2019
 
-### Location  
+### Location
+
 Sambica Camp and Retreat Center (4114 177th Ave SE Bellevue, WA 98008)
 
-### Cost  
+### Cost
+
 $80
 
-### Speaker  
+### Speaker
+
 TBA
 
-### AIA Contact  
-[Robbie Cowgill](mailto:robbie.cowgill@athletesinaction.org)
+### AIA Contact
 
-### Other Details  
+[Robert.Cowgill@athletesinaction.org](robert.cowgill@athletesinaction.org "Robert Cowgill")
+
+### Other Details
