@@ -24,7 +24,7 @@ $80
 
 Todd Langerveld
 
-![](/uploads/Todd Langerveld pic.png)
+{{ '/uploads/Todd Langerveld pic.png' | right_image }}
 
 Todd works with Athletes in Action in Southern California with over 25 years of experience ministering to college students, athletes, and coaches both in the US and across the globe. He and his wife Karen have 3 kids all who have/are playing college sports. He came to Christ while playing football at Michigan State where God radically changed his life and gave him a passion for ministry. Todd is an amazing Bible teacher, communicator, and storyteller and loves helping athletes connect to God with their heads and hearts in ways that significantly impact how they live.
 
@@ -36,4 +36,4 @@ Todd works with Athletes in Action in Southern California with over 25 years of 
 
 Band: Idylls
 
-{{ '[https://www.youtube.com/embed/p9vkXoob0kg](https://www.youtube.com/embed/p9vkXoob0kg "https://www.youtube.com/embed/p9vkXoob0kg")' | youtube }}
+{{ 'https://www.youtube.com/embed/p9vkXoob0kg' | youtube }}
