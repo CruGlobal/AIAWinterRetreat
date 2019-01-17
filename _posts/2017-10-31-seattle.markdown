@@ -36,4 +36,5 @@ Todd works with Athletes in Action in Southern California with over 25 years of 
 
 Band: Idylls
 
-{{[https://www.youtube.com/watch?v=p9vkXoob0kg](https://www.youtube.com/watch?v=p9vkXoob0kg "https://www.youtube.com/watch?v=p9vkXoob0kg")}}
+{{ [https://www.youtube.com/watch?v=p9vkXoob0kg](https://www.youtube.com/watch?v=p9vkXoob0kg "https://www.youtube.com/watch?v=p9vkXoob0kg")  
+ | youtube }}
