@@ -1,6 +1,9 @@
 module YouTubeFilter
     def youtube( input )
         id = input.split('/').last
+        if id.include? "watch"
+            id = id.split('=').last
+        end
         '<div class="row"><div class="col-md-6 col-md-offset-3"><div class="videowrapper"><iframe width="100%" src="https://www.youtube.com/embed/' + id + '" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div></div></div>'
     end
   end
