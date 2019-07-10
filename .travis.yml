@@ -1,15 +1,15 @@
-#Travis - 2/16/18
 language: ruby
 rvm:
-  - 2.1
-#cache: bundler
+- 2.1
 install: gem install s3_website && bundle install
 script: bundle exec jekyll build
-after_success: 
-  - s3_website push
+after_success:
+- s3_website push
 notifications:
-    slack: aiacc:DQJx1jxSipYMHzXBVtf4kMGH
+  slack:
+    rooms:
+      secure: KCTo15uh6Daet17TUkojdQjn18p3SqZWxuHS7aNcGS3B4lpSbwJaDD5lhh7U0FjZCYUc4+b22GXuIm1kjDkWyxysb4wc7E1BLs5GbfsfCZP6JagMvRkrAbbHgbKGHL5dA+JrJb8QV/cmwO8hlrWX3aO3r59F20q1zHOYj6PGLw7SULl0+6R2vXgHoFC4Bae2IBvmj3ASCll34nFY7grbuV4myeogjZ9clG1/J8JBAFE93l3jagT+rUk9Q1qZCd5k3xcnH1icRyOGAEPbYEu1bCsU4yYTYR6PEl/F3+xyMQyg81r5Sy9e2gZ3HLA+XTaZw/+Fdutktf7nXFOom5PEl8DjjsYKupvd/OCQRxU8HlL9AunVFV2HCSBr7bu9sf0OL6Hm+Cwmp8zGnkjEkDa9k3jnB+cNooMFyM27hTpjmohNksl6/JM2ro3frR1C6lEbR/CgzroUIQMdGwVJqaYGE3mEFJljR0PvQDAZmV/oJtL0tYrGfgZ+8nYs/WQ/RwG0BbR9A9OCnO35nflQvbUy5O2nIW32lF4kQTCYqPIP6Nh6wZNOKcCqIPse1Jqdi5w1jWzO83FB0OGS2DzYsWe38st6raqlcEAl8QDCNUUNnl3zkcQWTRaVwIoHMbCsrA3HVHVxRZqJFJuGAeNzBSrs0qfd92bNflWZEZEz0cxBb+A=
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 sudo: false
