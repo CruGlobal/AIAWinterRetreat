@@ -7,13 +7,13 @@ retreat_ID: '2082'
 old: false
 
 ---
-### ![](/uploads/Dream Weekend Flyer.jpg)
+### 
 
 ### Theme
 
 ### Dates
 
-Friday, Jan 24h - Sunday, Jan 26th, 2020 
+Friday, Jan 24h - Sunday, Jan 26th, 2020
 
 ### Location
 
