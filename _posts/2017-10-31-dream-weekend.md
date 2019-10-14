@@ -1,8 +1,8 @@
 ---
 title: Dream Weekend Branson
-date: 2017-10-31 19:35:00 +0000
-retreat_date: 2019-01-18 05:00:00 +0000
-retreat_location: Branson, MO
+date: '2017-10-31T19:35:00.000+00:00'
+retreat_date: 2020-01-24 05:00:00 +0000
+retreat_location: Golden, MO
 retreat_ID: 1989
 old: false
 
@@ -11,19 +11,13 @@ old: false
 
 ### Theme
 
-DREAM WEEKEND BRANSON
-
-A weekend honoring Dr. King and his dream, while learning to pursue the Revelation 7:9 DREAM of THE KING
-
 ### Dates
 
-Friday, Jan 18th - Sunday, Jan 20th, 2019  (4pm Jan 18 - 11:30am Jan 20)
-
-Meals: Friday Supper - Sunday Breakfast (5)
+Friday, Jan 24h - Sunday, Jan 26th, 2020 
 
 ### Location
 
-Branson, MO (Kids Across America Camp Golden, MO)
+Golden, MO (Kids Across America Camp Golden, MO)
 
 ### Cost
 
