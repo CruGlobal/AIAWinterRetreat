@@ -1,30 +1,33 @@
 ---
 title: Northeast Winter Retreat
-date: 2017-10-31 19:33:00 Z
-retreat_date: 2019-02-08 20:18:00 Z
-retreat_location: YMCA Camp Woodstock
-retreat_ID: 1967
+date: '2017-10-31T19:33:00.000+00:00'
+retreat_date: 2020-01-31 20:18:00 +0000
+retreat_location: Pittsfield, MA
+retreat_ID: '1967'
 old: false
+alt_url: http://www.lakesideonline.org
+
 ---
 
-Come to Athletes In Action's Northeast Winter Retreat and join 100 student athletes from Boston, Brown, NYC, Rochester, UConn, UMass, Yale, and more! Be encouraged as you learn how God, life and sports connect.
-
-
 ### Dates
-Friday, Feb. 8th 8:30pm -  Sunday, Feb. 10th, 2019
-*Retreat ends at noon Sunday*
+
+Friday, Jan. 31 -  Sunday, Feb. 2nd, 2020 
 
 ### Location
-Camp Woodstock YMCA (42 Camp Rd, Woodstock, CT)
+
+Lakeside Christian Camp and Conference Center  
+195 Cloverdale Street, Pittsfield MA 01201
 
 ### Cost
-$139
+
+$125
 
 ### Speaker
-Paul and Kym Byrd
 
 ### AIA Contact
+
 [John Vampatella](mailto:john.vampatella@athletesinaction.org)
 
 ### Other Details
+
 Cost includes the conference, 2 nights shared room, snacks, breakfast, lunch, and dinner on Saturday, and breakfast on Sunday.
