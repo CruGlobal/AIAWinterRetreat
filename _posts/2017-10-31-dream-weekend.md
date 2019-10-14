@@ -1,5 +1,5 @@
 ---
-title: Dream Weekend Branson
+title: Dream Weekend
 date: '2017-10-31T19:35:00.000+00:00'
 retreat_date: 2020-01-24 05:00:00 +0000
 retreat_location: Golden, MO
