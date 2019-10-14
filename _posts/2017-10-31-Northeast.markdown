@@ -3,7 +3,7 @@ title: Northeast Winter Retreat
 date: '2017-10-31T19:33:00.000+00:00'
 retreat_date: 2020-01-31 20:18:00 +0000
 retreat_location: Pittsfield, MA
-retreat_ID: '1967'
+retreat_ID: '2051'
 old: false
 alt_url: http://www.lakesideonline.org
 
