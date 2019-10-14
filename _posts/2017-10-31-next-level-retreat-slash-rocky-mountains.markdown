@@ -1,18 +1,17 @@
 ---
-title: Next Level Retreat <br /> Rocky Mountains
-date: 2017-10-31 19:33:00 +0000
-retreat_date: 2019-03-01 20:18:00 +0000
+title: Next Level Retreat
+date: '2017-10-31T19:33:00.000+00:00'
+retreat_date: 2000-03-06 05:00:00 +0000
 retreat_location: YMCA of the Rockies
 retreat_ID: 
-alt_url: http://www.nextlevelretreat.org/
+alt_url: http://fcacolorado.org/next-level-retreat
 old: false
 
 ---
-Mountains. Trees. Snow. Athletes. Jesus. What else can you ask for? At Athletes In Action's Rocky Mountain Winter Retreat, join hundreds of other athletes for a weekend centering on how God, Life and Sport intersect. Together we will pursue what it means to be Jesus centered and take our faith to the NEXT LEVEL.
 
 ### Dates
 
-Friday, Mar. 1st 8:30pm -  Sunday, Mar. 3rd, 2019
+Friday, Mar. 6th -  Sunday, Mar. 8th, 2020
 
 ### Location
 
@@ -20,11 +19,7 @@ YMCA of the Rockies (2515 Tunnel Rd, Estes Park, CO 80511)
 
 ### Cost
 
-$100 before February 17th ($120 after)
-
 ### Band
-
-[Run51](http://wearerun51.com)
 
 ### Speaker
 
@@ -36,4 +31,4 @@ LaMorris Crawford
 
 ### Register Online
 
-[www.NextLevelRetreat.org](http://www.NextLevelRetreat.org)
+[http://fcacolorado.org/next-level-retreat](http://fcacolorado.org/next-level-retreat "http://fcacolorado.org/next-level-retreat")
