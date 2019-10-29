@@ -1,5 +1,5 @@
 ---
-title: Red River
+title: Red River Winter Retreat
 date: '2017-10-31T19:52:00.000+00:00'
 retreat_date: 2020-01-17 05:00:00 +0000
 retreat_location: Waxahachie, TX
