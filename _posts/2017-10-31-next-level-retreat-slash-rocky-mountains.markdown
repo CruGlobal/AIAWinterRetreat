@@ -32,4 +32,4 @@ LaMorris Crawford
 
 ### Register Online
 
-[http://nextlevelretreat.org](http://nextlevelretreat.org "http://nextlevelretreat.org")
+[http://fcacolorado.org/next-level-retreat](http://nextlevelretreat.org "http://nextlevelretreat.org")
