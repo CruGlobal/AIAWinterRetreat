@@ -8,9 +8,10 @@ old: false
 alt_url: https://my.athletesinaction.org/Public/Forms/winter-retreat.aspx?EventID=2051
 
 ---
+
 ### Dates
 
-Friday, Jan. 31 -  Sunday, Feb. 2nd, 2020 
+Friday, Jan. 31 -  Sunday, Feb. 2nd, 2020
 
 ### Location
 
@@ -30,3 +31,5 @@ $125
 ### Other Details
 
 Cost includes the conference, 2 nights shared room, snacks, breakfast, lunch, and dinner on Saturday, and breakfast on Sunday.
+
+[http://www.lakesideonline.org](http://www.lakesideonline.org "http://www.lakesideonline.org")
