@@ -1,14 +1,13 @@
 ---
 title: Northeast Winter Retreat
 date: '2017-10-31T19:33:00.000+00:00'
-retreat_date: 2020-01-31 20:18:00 +0000
+retreat_date: 2020-01-31T20:18:00.000+00:00
 retreat_location: Pittsfield, MA
 retreat_ID: '2051'
 old: false
-alt_url: http://www.lakesideonline.org
+alt_url: https://my.athletesinaction.org/Public/Forms/winter-retreat.aspx?EventID=2051
 
 ---
-
 ### Dates
 
 Friday, Jan. 31 -  Sunday, Feb. 2nd, 2020 
