@@ -5,7 +5,7 @@ retreat_date: 2020-01-31T20:18:00.000+00:00
 retreat_location: Pittsfield, MA
 retreat_ID: '2051'
 old: false
-alt_url: https://my.athletesinaction.org/Public/Forms/winter-retreat.aspx?EventID=2051
+alt_url: ''
 
 ---
 
