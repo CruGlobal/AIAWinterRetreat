@@ -1,20 +1,20 @@
 ---
-title: Next Level Retreat
+title: Mid-South Region Winter Retreat
 date: '2017-10-31T19:33:00.000+00:00'
-retreat_date: 2020-03-06T05:00:00.000+00:00
-retreat_location: YMCA of the Rockies
-retreat_ID: 
-alt_url: http://fcacolorado.org/next-level-retreat
+retreat_date: 2020-01-17 05:00:00 +0000
+retreat_location: Ridge Crest Conference Center
+retreat_ID: ''
+alt_url: https://fca.regfox.com/2020winterblast
 old: false
 
 ---
 ### Dates
 
-Friday, Mar. 6th -  Sunday, Mar. 8th, 2020
+Friday, Jan. 17th -  Sunday, Jan.19th, 2020
 
 ### Location
 
-YMCA of the Rockies (2515 Tunnel Rd, Estes Park, CO 80511)
+Ridge Crest Conference Center, 1 Ridgecrest Dr, Ridgecrest, NC 28770 US
 
 ### Cost
 
@@ -22,14 +22,16 @@ $150
 
 ### Band
 
+[Marvin and Marvin](https://www.marvinmumford.com/)
+
 ### Speaker
 
-LaMorris Crawford
+[Brian Duley](https://www.nikaochurch.org/about#pastor-brian)
 
 ### AIA Contact
 
-[Reza Zadeh](mailto:reza.zadeh@athletesinaction.org) and [Karen Brackman](mailto:karen.brackman@athletesinaction.org)
+[Russ Throckmorton](russ.throckmorton@athletesinaction.org)
 
 ### Register Online
 
-[http://fcacolorado.org/next-level-retreat](http://nextlevelretreat.org "http://nextlevelretreat.org")
+[https://fca.regfox.com/2020winterblast](https://fca.regfox.com/2020winterblast "https://fca.regfox.com/2020winterblast")
