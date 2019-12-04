@@ -1,34 +1,42 @@
 ---
-title: Northeast Winter Retreat
+title: Southeast Winter Retreat
 date: '2017-10-31T19:33:00.000+00:00'
-retreat_date: 2020-01-31T20:18:00.000+00:00
-retreat_location: Pittsfield, MA
-retreat_ID: '2051'
+retreat_date: 2020-02-07 20:18:00 +0000
+retreat_location: Waverly, GA
+retreat_ID: '2104'
 old: false
 alt_url: ''
 
 ---
+![](/uploads/IMG_7448.jpg)
+
 ### Dates
 
-Friday, Jan. 31 -  Sunday, Feb. 2nd, 2020
+Friday, February 7th - Sunday, February 9th, 2020
 
 ### Location
 
-Lakeside Christian Camp and Conference Center  
-195 Cloverdale Street, Pittsfield MA 01201
+Honey Creek Conference Center, 299 Georgia Episcopal Center Rd.
+
+Waverly, GA 31565
 
 ### Cost
 
-$125
+$99
 
 ### Speaker
 
+Reggie Hutchins
+
+### Worship Leader
+
+Marvin Mumford
+
 ### AIA Contact
 
-[John Vampatella](mailto:john.vampatella@athletesinaction.org)
+[Matt Wise](matt.wise@athletesinaction.org "Matt Wise")
 
 ### Other Details
 
-Cost includes the conference, 2 nights shared room, snacks, breakfast, lunch, and dinner on Saturday, and breakfast on Sunday.
-
-[http://www.lakesideonline.org](http://www.lakesideonline.org "http://www.lakesideonline.org")
+When registering, choose "Pay Balance When I Arrive". The retreat cost will be  
+paid directly to the event center when you arrive at the retreat.
