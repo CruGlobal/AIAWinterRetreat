@@ -37,6 +37,3 @@ Marvin Mumford
 [Matt Wise](matt.wise@athletesinaction.org "Matt Wise")
 
 ### Other Details
-
-When registering, choose "Pay Balance When I Arrive". The retreat cost will be  
-paid directly to the event center when you arrive at the retreat.
