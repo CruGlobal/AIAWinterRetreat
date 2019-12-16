@@ -7,7 +7,11 @@ retreat_ID: '2108'
 old: false
 
 ---
+![](/uploads/SoCal 2020 Flyer.jpg)
+
 ### Theme
+
+One Day in Dana Point
 
 ### Dates
 
