@@ -19,3 +19,5 @@ fields:
   name: alt_url
   label: alt_url
   description: Fill in if the registration form is not on myAIA.
+pages:
+- _posts/2019-12-19-sambica.md
