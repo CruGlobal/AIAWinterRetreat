@@ -8,7 +8,6 @@ old: false
 alt_url: ''
 
 ---
-
 ### Dates
 
 Friday, Jan. 31 -  Sunday, Feb. 2nd, 2020
@@ -20,7 +19,7 @@ Lakeside Christian Camp and Conference Center
 
 ### Cost
 
-$125
+$129
 
 ### Speaker
 
