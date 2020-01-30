@@ -5,7 +5,7 @@ retreat_date: 2020-02-07T20:18:00.000+00:00
 retreat_location: Waverly, GA
 retreat_ID: ''
 old: false
-alt_url: "#"
+alt_url:
 
 ---
 ![](/uploads/IMG_7448.jpg)
